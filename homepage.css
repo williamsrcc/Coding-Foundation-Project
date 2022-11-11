@@ -1,0 +1,240 @@
+/* Body Style */
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+
+/* UPPER OPTIONS BAR */
+
+/* Navigation Bar Styles */
+.navigation_bar {
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*NavBar Left Column Styles */
+.navigation_bar > .left_column{
+    display: flex;
+    align-items: center;
+}
+
+/* NavBar Left Column: banner logo */
+.navigation_bar > .left_column > .banner_logo {
+    margin: 10px 50px 10px 25px;
+    
+}
+
+.navigation_bar > .left_column > .banner_logo img {
+    height: 35px;
+}
+
+/* NavBar Left Column: explore text */
+.navigation_bar > .left_column > .navbar_links > .explore_text p {
+    color: #F4D95C;
+    font-weight: 900;
+    margin: 0;
+}
+
+/* NavBar Left Column: links */
+.navigation_bar > .left_column > .navbar_links > .links_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation_bar > .left_column > .navbar_links > .links_wrapper > .nav_link a {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navigation_bar > .left_column > .navbar_links > .links_wrapper > .spark_menu {
+    color: grey;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.navigation_bar > .left_column > .navbar_links > .links_wrapper > .spark_menu p {
+    margin: 0;
+}
+
+.navigation_bar > .left_column > .navbar_links > .links_wrapper > .spark_menu i {
+    margin-left: 10px;
+}
+
+/* NavBar Right Column Styles */
+.navigation_bar > .right_column {
+    margin-right: 5px;
+}
+
+.navigation_bar > .right_column > .options_bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.navigation_bar > .right_column > .options_bar > .options > .create_menu, .navbar_btn button {
+    background-color: #40444E;
+    color: white;
+    font-size: 1.15em;
+    font-weight: 600;
+    padding: 15px 21px;
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer; 
+}
+
+.navigation_bar > .right_column > .options_bar > .options > .create_menu  i {
+    color: #4BCE79;
+}
+
+.search_logo i {
+    text-decoration: none;
+    color: grey;
+    font-size: 2em;
+    padding: 0px 20px;
+    margin-right: 5px;  
+}
+
+
+/* HERO SECTION CONTENT */
+
+/* Hero Section Styles*/
+.content-wrapper {
+    background: linear-gradient(to right, #31343C 0%, #363A42 35%, #2B2D34 70%, black 100%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: inset -100px -20px 90px 0px rgba(0,0,0,0.75);
+}
+
+/* Hero Section Left Size Content styles */
+.content-wrapper > .left_size {
+    margin: 50px 0px 0px 70px;    
+}
+
+/* Hero Section Left Size Content: presentation */
+.content-wrapper > .left_size h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.45in;
+       
+}
+
+.content-wrapper > .left_size > .presentation > h1 > .bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;   
+}
+
+.content-wrapper > .left_size h2 {
+    color: #B3B3AB;
+    font-size: 0.32in;
+    font-weight: lighter;   
+}
+
+/* Hero Section Left Size Content: buttons position*/
+.content-wrapper > .left_size > .button_wrapper {
+    margin-top: 50px;
+}
+
+/* Hero Section Left Size Content: buttons links */
+.content-wrapper > .left_size > .button_wrapper a {
+    text-decoration: none;
+}
+
+/* Hero Section Left Size Content: left button style */
+.content-wrapper > .left_size > .button_wrapper > .sign_up_btn button {
+    background-color: #4BCE79;
+    color: black;
+    font-size: 2.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: 15px 25px;
+    border: 0.5px black solid;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer; 
+    margin-right: 10px;
+}
+
+/* Hero Section Left Size Content: right button style */
+.content-wrapper > .left_size > .button_wrapper > .learn_more_btn button {
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    padding: 15px 25px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer; 
+}
+
+/* Hero Section Right Size Content */
+.content-wrapper > .right_size {
+    margin-top: 20px;
+}
+
+.content-wrapper > .right_size p {
+    font-size: 1.15em;
+    font-weight: 900;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.content-wrapper > .right_size > p > .blue {
+    color: #72DAFD;
+}
+.content-wrapper > .right_size img {
+    height: 470px;
+    box-shadow: 0px -5px 60px 10px rgb(0 0 0 / 50%);
+}
+
+
+/* LOWER OPTIONS BAR*/
+
+/* "CodePen for" Bar */
+.codepen_for_options_bar {
+    height: 75px;
+    background-color: #363A42;
+    
+}
+
+.codepen_for_options_bar > .codepen_for_options {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.codepen_for_options_bar > .codepen_for_options > .codepen_for {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    border: 2px grey solid;
+}
+
+.codepen_for_options_bar > .codepen_for_options > .codepen_for p {
+    margin: 0px;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.codepen_for_options_bar > .codepen_for_options > .codepen_for > p > .bold {
+    font-family: 'Teko', sans-serif;
+    font-size: 1.8em;
+}
